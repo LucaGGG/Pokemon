@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4402694814650325830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4402694814650325828}
+  - component: {fileID: 4402694814650325831}
+  m_Layer: 0
+  m_Name: Simsala
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4402694814650325828
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4402694814650325830}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 943.51794, y: 367.2219, z: 1111.3105}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4402694814650325831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4402694814650325830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99e2b00d61987904099116b55a69f949, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemon: Simsala
+  typ1: Psycho
+  typ2: 
+  maxKp: 162
+  kp: 162
+  angriff: 205
+  verteidigung: 161
+  initiative: 189
+  attacke1: {fileID: 1289142355936021386, guid: 8e78c8089bed6bd49b9054cbf8a1961e, type: 3}
+  attacke2: {fileID: 7691107666561855739, guid: 7fdf5baa09588464bb210f73e47d670f, type: 3}
+  attacke3: {fileID: 5341098008115830905, guid: 879a03dfa2e3a2a4095ae444da2e4377, type: 3}
+  attacke4: {fileID: 1130087438013068514, guid: 4bcbe86888c492746a0d400473c37e26, type: 3}
+  spielermon: {fileID: 4402694814650325831}
+  gegnermon: {fileID: 0}
+  kpGegner: {fileID: 0}
+  kpSpieler: {fileID: 0}
+  ereignis: {fileID: 0}

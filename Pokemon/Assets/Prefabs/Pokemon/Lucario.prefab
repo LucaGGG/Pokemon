@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &579971228225612137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 579971228225612139}
+  - component: {fileID: 579971228225612136}
+  m_Layer: 0
+  m_Name: Lucario
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &579971228225612139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579971228225612137}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 943.51794, y: 367.2219, z: 1111.3105}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &579971228225612136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579971228225612137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99e2b00d61987904099116b55a69f949, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemon: Lucario
+  typ1: Stahl
+  typ2: Kampf
+  maxKp: 177
+  kp: 177
+  angriff: 178
+  verteidigung: 183
+  initiative: 156
+  attacke1: {fileID: 4329004337879459590, guid: 88185202f62c4f7408e44abc71d4e723, type: 3}
+  attacke2: {fileID: 3641061394949179185, guid: 1507aa473ed5ca343be0fc4b91b8040b, type: 3}
+  attacke3: {fileID: 8177717679210156459, guid: 421d6082f69accc4aa2020e69b57ffa7, type: 3}
+  attacke4: {fileID: 8978134711099882044, guid: bbcf2dee066e3e04a8701f2584f5b575, type: 3}
+  spielermon: {fileID: 579971228225612136}
+  gegnermon: {fileID: 0}
+  kpGegner: {fileID: 0}
+  kpSpieler: {fileID: 0}
+  ereignis: {fileID: 0}

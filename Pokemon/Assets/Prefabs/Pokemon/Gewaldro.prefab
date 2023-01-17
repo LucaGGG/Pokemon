@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6000512721113394703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6000512721113394701}
+  - component: {fileID: 6000512721113394702}
+  m_Layer: 0
+  m_Name: Gewaldro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6000512721113394701
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6000512721113394703}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 943.51794, y: 367.2219, z: 1111.3105}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6000512721113394702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6000512721113394703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99e2b00d61987904099116b55a69f949, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemon: Gewaldro
+  typ1: Pflanze
+  typ2: 
+  maxKp: 177
+  kp: 177
+  angriff: 172
+  verteidigung: 150
+  initiative: 189
+  attacke1: {fileID: 3886156546547090091, guid: 0989f8e7351fe3142bbec6c2638c881b, type: 3}
+  attacke2: {fileID: 5946098252528699083, guid: 0976a206a9693914584a940bf5ecf1c0, type: 3}
+  attacke3: {fileID: 8177717679210156459, guid: 421d6082f69accc4aa2020e69b57ffa7, type: 3}
+  attacke4: {fileID: 4751882235656132858, guid: a036d28f90199004bac3c93edacef735, type: 3}
+  spielermon: {fileID: 6000512721113394702}
+  gegnermon: {fileID: 0}
+  kpGegner: {fileID: 0}
+  kpSpieler: {fileID: 0}
+  ereignis: {fileID: 0}

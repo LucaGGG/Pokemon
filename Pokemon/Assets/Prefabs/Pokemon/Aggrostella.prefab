@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2153313822987809979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2153313822987809977}
+  - component: {fileID: 2153313822987809978}
+  m_Layer: 0
+  m_Name: Aggrostella
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2153313822987809977
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2153313822987809979}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 943.51794, y: 367.2219, z: 1111.3105}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2153313822987809978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2153313822987809979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99e2b00d61987904099116b55a69f949, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemon: Aggrostella
+  typ1: GIft
+  typ2: Wasser
+  maxKp: 157
+  kp: 157
+  angriff: 126
+  verteidigung: 224
+  initiative: 95
+  attacke1: {fileID: 5779059211726602229, guid: fbf0861a917407f4692ffce9037045ee, type: 3}
+  attacke2: {fileID: 5138731666324220705, guid: 043828fff8d53b74a8bd3184be23576a, type: 3}
+  attacke3: {fileID: 8201204717475479739, guid: 425d1240b25fd844ea93d5ac612d3487, type: 3}
+  attacke4: {fileID: -7355293241840446259, guid: d7d8de6180a2f544ab051fd10f0804d8, type: 3}
+  spielermon: {fileID: 2153313822987809978}
+  gegnermon: {fileID: 0}
+  kpGegner: {fileID: 0}
+  kpSpieler: {fileID: 0}
+  ereignis: {fileID: 0}
